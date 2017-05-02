@@ -1,0 +1,153 @@
+/* YOUR CUSTOM STYLES */
+*{
+	margin: 0;
+}
+
+html, body{
+	height: 100%;
+}
+
+h3{
+	font-size: 1.2em;
+	line-height: 50px;
+	color: #000;
+	margin-bottom: 0px;
+}
+.topmenu{
+	position:fixed ;
+	text-align-last: right;
+	text-align-last: left;
+	font-size: 1.3em;
+	height: 50px;
+	width: 100%;
+	background-color:rgba(0,0,0,.5);
+}
+
+.topmenu a{
+	text-decoration: none;
+	color: white;
+	font-family: segoe ui light;
+	margin-left: 35px;
+	line-height: 50px;
+	font-size: 0.7em;
+}
+.topmenu a:hover{
+	color: red;
+}
+
+.sect{
+	height:100%;;
+	width: 100%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	top: 20px;
+}
+
+.subsection{
+		height: 50%;
+		    background-color: rgb(219, 220, 222);
+	top: 20px;
+}
+
+.SectOne{
+
+	background-image:url(img/laptop.jpg);
+
+	top: 20px;
+	
+}
+
+.SectTwo{
+	background-image: url(img/marble.jpg);
+}
+
+.SectThree{
+	background-image: url(img/skyscrapers.jpg);
+}
+
+.portfolio{
+
+	
+}
+
+
+.a1{
+	height: 305px;
+    width: 474px;
+    margin-left: 95px;
+    margin-top: 7px;
+
+}
+.a2{
+	height: 305px;
+	width: 474px;
+	margin-left: 95px;
+	margin-top: 7px;
+}
+
+h1{
+	font-family: sans-serif;
+	font-size: 35px;
+	width: 550px;
+	display: block;
+	float: right;
+	margin-right: 20px;
+	padding-top: 20px;
+	position: relative;
+	
+}
+
+.p1{
+	width: 600px;
+    display: block;
+    float: right;
+    margin-right: 100px;
+    text-align: justify;
+    padding-top: 20px;
+    position: relative;
+    bottom: 269px;
+    font-size: 18px;
+    font-family: segoe ui light;
+}
+.p2{
+	width: 600px;
+	display: block;
+	float: right;
+	margin-right: 100px;
+	text-align: justify;
+	padding-top: 20px;
+	position: relative;
+	bottom: 269px;
+	font-size: 18px;
+	font-family: segoe ui light;
+}
+
+
+
+
+footer{
+	text-align: center;
+	height: 50px;
+	width: 100%;
+	background-color: rgb(219, 220, 222);
+	line-height: 50px;
+	font-family: segoe ui light;
+	font-size: 0.7em;	
+}
+
+
+.a1 { border: 0px; }
+.slideshow{
+	position:absolute; width:600px; height:300px;
+	margin-left: 30%;
+
+	border-style: solid;
+}
+.slideshow img{
+	position:absolute;left:0; top:0;
+}
+
+
+
+
