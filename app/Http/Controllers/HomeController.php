@@ -7,6 +7,8 @@ use App\Image;
 use App\User;
 use App\Gallery;
 use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\DB;
+
 
 class HomeController extends Controller
 {
@@ -36,7 +38,7 @@ class HomeController extends Controller
         //                 'images.*',
         //                 DB::raw('(select count(*) from imagecomments where imagecomments.image_id = images.id)  as commentcount'),
         //                 DB::raw('(select count(*) from likes where likes.image_id = images.id)  as liek')
-        //                 )
+        //                 )S
         //             ->orderBy('images.id','desc')
         //             ->paginate(20);
         return view('pages.images')
